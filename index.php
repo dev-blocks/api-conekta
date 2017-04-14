@@ -32,31 +32,33 @@
 						<p>Crear tu file para declarar las functions de Conekta</p>
 					</li>
 				</ul>
-				<section>
+
+				<!--CARD-->
+				<section role="card">
 					<h3>Pagos con Tarjeta</h3>
 					<!--FORM-->
 					<form action="controller/payment.php" method="POST" accept-charset="utf-8" id="card-form">
 						<div class="card-errors"></div>
 						<div class="form-group">
 							<label for="">Nombre del tarjetahabiente</label>
-							<input type="text" size="20" data-conekta="card[name]" class="form-control"  placeholder="...">
+							<input type="text" size="20" data-conekta="card[name]" class="form-control"  placeholder="Banco">
 						</div>
 						<div class="form-group">
 							<label for="">Número de tarjeta de crédito</label>
-							<input type="text" size="20" data-conekta="card[number]" class="form-control"  placeholder="...">
+							<input type="text" size="20" data-conekta="card[number]" class="form-control"  placeholder="4242 - 4242 - 4242 - 4242">
 						</div>
 						<div class="form-group">
 							<label for="">CVC</label>
-							<input type="text" size="4" data-conekta="card[cvc]" class="form-control"  placeholder="...">
+							<input type="text" size="4" data-conekta="card[cvc]" class="form-control"  placeholder="123">
 						</div>
 						<div class="form-group">
 							<label for="">Fecha de expiración (MM/AAAA)</label>
 							<div class="row">
 								<div class="col-md-6">
-									<input type="text" size="2" data-conekta="card[exp_month]" class="form-control"  placeholder="...">
+									<input type="text" size="2" data-conekta="card[exp_month]" class="form-control"  placeholder="02">
 								</div>
 								<div class="col-md-6">
-									<input type="text" size="4" data-conekta="card[exp_year]" class="form-control"  placeholder="...">
+									<input type="text" size="4" data-conekta="card[exp_year]" class="form-control"  placeholder="2020">
 								</div>
 							</div>
 						</div>
@@ -66,6 +68,7 @@
 					</form>
 					<!--FORM-->
 				</section>
+				<!--CARD-->
 			</div><!--container-->
 		</main>
 
